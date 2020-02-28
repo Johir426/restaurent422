@@ -1,0 +1,144 @@
+
+
+*{
+    margin: 0;
+    padding: 0
+}
+body{
+    height: 4000px;
+    font-family: 'Zilla Slab', serif;
+
+}
+.header{
+    max-width: 1365px;
+    height: 700px;
+    background-image: url(../images/banner.png);
+    
+    background-size: cover;
+    
+}
+.head{
+    max-width: 1365px;
+    height: 120px;
+    background: rgba(17, 13, 12,0.7)
+}
+.head .menu{}
+.head .menu ul{
+    text-align: center
+}
+.head .menu ul li{
+    display: inline;
+    
+}
+.head .menu ul li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block
+    
+}
+.head .menu ul li #eudora{
+    font-size: 58px;
+    color: #E48D0A;
+   
+    
+}
+.head .simple{
+    margin-top: 250px;
+    text-align: center;
+    color: white;
+    
+}
+.head .simple h1{
+    font-size: 48px;
+    line-height: 1.5;
+    font-family: 'Lobster Two', cursive;
+
+}
+.head .simple p{
+    font-size: 20px;
+    padding: 15px 0px;
+    color: #D3D2D1
+}
+.head .simple span{
+    color: #E48D0A;
+}
+.head .simple input{
+    width: 150px;
+    height: 40px;
+    background: none;
+    color: #F9F9F9;
+    border: 1px solid white;
+    margin-top: 50px;
+    transition: all ease .5s;
+    cursor: pointer
+
+}
+.head .simple input:hover{
+    background-color: darkslategray;
+    
+}
+
+
+/***header End***********/
+/***Meader Start ***********/
+
+
+.first-mead{
+    position: relative
+}
+.first {
+    text-align: center;
+    padding-top: 100px
+}
+.first .line {
+    width: 180px;
+    height: 2px;
+    background: #F5DEB0;
+   position: absolute;
+    left: 250px;
+    top: 122px
+}
+.first .lenth {
+    width: 180px;
+    height: 2px;
+    background: #F5DEB0;
+  right: 250px;
+    position: absolute;
+    top: 122px
+}
+.first h2{
+    color: #6E7498;
+  font-family: 'Lobster Two', cursive;;
+    font-size: 32px;
+    font-weight: bold
+
+
+
+}
+.first p{
+    color: #B2B1BF;
+    padding: 20px 0px 
+}
+.first input{
+    width: 120px;
+    height: 35px;
+   margin: 10px;
+    background: none;
+    font-weight: bold;
+    color: #7F84A3;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease .3s;
+    border: 1ps solid #DDDFEC
+}
+.first input:hover{
+    background: #E59204;
+    color: white
+}
+
+/***Meader End***********/
+/*** second meader Start ***********/
+
+
